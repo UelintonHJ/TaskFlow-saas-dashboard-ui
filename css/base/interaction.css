@@ -1,0 +1,26 @@
+.is-pressable {
+    transition: transform var(--anim-fast) var(--ease-standard),
+    box-shadow var(--anim-medium) var(--ease-standard),
+    opacity var(--anim-medium) var(--ease-standard);
+}
+
+.is-pressable:active {
+    transform: scale(0.96);
+    box-shadow: var(--shadow-xs);
+    opacity: 0.95;
+}
+
+.is-pressable:hover:not(:active) {
+    transform: translateY(-2px);
+}
+
+@media (prefers-reduce-motion: reduce) {
+    .is-pressable {
+        transition: none;
+    }
+
+    .is-pressable:active {
+        transform: none;
+        box-shadow: none;
+    }
+}

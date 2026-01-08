@@ -1,0 +1,10 @@
+.cta {
+    background: var(--color-primary);
+    color: var(--color-text-primary);
+    padding: var(--space-15) var(--space-5);
+    text-align: center;
+}
+
+.cta__title {
+    margin-bottom: var(--space-5);
+}

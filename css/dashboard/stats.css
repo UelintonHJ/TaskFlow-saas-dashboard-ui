@@ -1,0 +1,24 @@
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--space-9);
+}
+
+.stat {
+    background: var(--card-bg-card);
+    padding: var(--space-10);
+    border-radius: var(--radius-lg);
+    text-align: left;
+}
+
+.stat__number {
+    font-size: 1.75rem;
+    font-weight: var(--font-weight-semibold);
+}
+
+.stat__label {
+    opacity: 0.8;
+    margin-top: var(--space-2);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}

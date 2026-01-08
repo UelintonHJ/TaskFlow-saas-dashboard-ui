@@ -1,0 +1,10 @@
+.testimonials {
+    padding: var(--space-15) 0;
+    text-align: center;
+}
+
+.testimonials {
+    max-width: 600px;
+    margin: auto;
+    font-style: italic;
+}

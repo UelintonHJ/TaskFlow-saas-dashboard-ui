@@ -1,0 +1,26 @@
+@import "./base/variables.css";
+@import "./base/reset.css";
+@import "./base/typography.css";
+@import "./base/layout.css";
+@import "./base/animations.css";
+@import "./base/base.css";
+@import "./base/interaction.css";
+
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/menu/menu.css";
+@import "./components/menu/menu.variants.css";
+@import "./components/menu/menu.mobile.css";
+
+@import "./sections/hero.css";
+@import "./sections/how-it-works.css";
+@import "./sections/features.css";
+@import "./sections/pricing.css";
+@import "./sections/testimonials.css";
+@import "./sections/cta.css";
+@import "./sections/footer.css";
+
+@import "./dashboard/dashboard.css";
+@import "./dashboard/stats.css";
+@import "./dashboard/tasks.css";
+@import "./dashboard/widgets.css";

@@ -1,0 +1,42 @@
+.hero {
+    padding: var(--space-15) 0;
+    text-align: center;
+}
+
+.hero__badge {
+    display: inline-block;
+    margin-bottom: var(--space-5);
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--space-3);
+    font-weight: var(--font-weight-bold);
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    border-radius: var(--radius-pill);
+}
+
+.hero__title {
+    font-size: var(--space-13);
+    font-weight: var(--font-weight-extrabold);
+    max-width: 700px;
+    margin: 0 auto var(--space-5);
+}
+
+.hero__text {
+    max-width: 520px;
+    margin: 0 auto var(--space-11);
+    font-size: var(--space-6);
+    opacity: 0.9;
+}
+
+.hero__actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .hero__title {
+        font-size: var(--space-11);
+    }
+}

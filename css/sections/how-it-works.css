@@ -1,0 +1,19 @@
+.how-it-works {
+    padding: var(--space-15) 0;
+}
+
+.how-it-works__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-11);
+}
+
+.step {
+    text-align: center;
+}
+
+.step__number {
+    font-size: var(--space-11);
+    font-weight: var(--font-weight-extrabold);
+    color: var(--color-primary);
+}

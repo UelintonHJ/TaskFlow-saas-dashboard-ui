@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow | Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="assets/images/favicon_TaskFlow.jpeg" type="image/x-icon">
+</head>
+
+<body class="dashboard">
+    <aside class="menu menu--sidebar">
+        <nav class="menu__nav" aria-label="Menu do dashboard">
+            <h2 class="menu__logo"><a href="index.html" class="menu__link menu__link--logo">TaskFlow</a></h2>
+
+            <button class="menu__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="dashboardMenu">
+                <span class="menu__toggle-bar"></span>
+                <span class="menu__toggle-bar"></span>
+                <span class="menu__toggle-bar"></span>
+            </button>
+
+            <ul class="menu__list" id="dashboardMenu">
+                <li class="menu__item"><a class="menu__link menu__link--active" href="dashboard.html"
+                        aria-current="page">Dashboard</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Tarefas</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Projetos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Configurações</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+        <main class="dashboard__wrapper">
+            <header class="dashboard__header">
+                <h1 class="dashboard__title">Dashboard</h1>
+                <span class="dashboard__user">Olá, Uelinton <img src="/assets/images/wave_16.png"
+                        alt="ícone de saudação"></span>
+            </header>
+
+            <section class="dashboard__main">
+                <section class="dashboard-widgets">
+                    <section class="stats widget">
+                        <article class="stat card">
+                            <h3 class="stat__number">12</h3>
+                            <p class="stat__label">Tarefas totais</p>
+                        </article>
+
+                        <article class="stat card">
+                            <h3 class="stat__number">5</h3>
+                            <p class="stat__label">Em andamento</p>
+                        </article>
+
+                        <article class="stat card">
+                            <h3 class="stat__number">7</h3>
+                            <p class="stat__label">Concluídas</p>
+                        </article>
+                    </section>
+
+                    <section class="tasks widget">
+                        <h2 class="tasks__title">Minhas tarefas</h2>
+
+                        <ul class="tasks__list">
+                            <li class="task task--done card">
+                                <span>Estudar HTML semântico</span>
+                                <span class="task__status">
+                                    <img src="/assets/images/checked1_32.png" alt="ícone de check">
+                                </span>
+                            </li>
+                            <li class="task card">
+                                <span>Refatorar CSS com BEM</span>
+                                <span class="task__status">
+                                    <img src="/assets/images/hourglass_32.png" alt="ícone de ampulheta">
+                                </span>
+                            </li>
+                            <li class="task card">
+                                <span>Criar dashboard simples</span>
+                                <span class="task__status">
+                                    <img src="/assets/images/hourglass_32.png" alt="ícone de ampulheta">
+                                </span>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </main>
+    
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+    font-family: var(--font-base);
+    line-height: 1.65;
+    color: var(--color-text-primary);
+}
+
+.menu__toggle:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
+}
+
+a:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
+}
+
+.menu__link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+}

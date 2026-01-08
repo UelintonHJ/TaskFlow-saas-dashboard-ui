@@ -1,0 +1,13 @@
+:root {
+    --anim-fast: 160ms;
+    --anim-medium: 220ms;
+    --anim-base: 260ms;
+    --anim-slow-medium: 320ms;
+    --anim-slow: 420ms;
+
+    --ease-standard: cubic-bezier(0.22, 0.61, 0.36, 1);
+    --ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
+
+    --slide-sm: 6px;
+    --slide-md: 12px;
+}

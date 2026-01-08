@@ -1,0 +1,33 @@
+.pricing {
+    padding: var(--space-15) 0;
+}
+
+.pricing__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-11);
+}
+
+.plan {
+    padding: var(--space-11);
+    border-radius: 12px;
+    background: var(--color-bg-plan);
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.plan--highlight {
+    border-color: var(--color-accent);
+    transform: scale(1.05);
+}
+
+.plan__price {
+    font-size: var(--space-11);
+    font-weight: var(--font-weight-extrabold);
+    margin: var(--space-5) 0;
+}
+
+.plan__features {
+    list-style: none;
+    margin-bottom: var(--space-9);
+}

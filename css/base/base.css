@@ -1,0 +1,9 @@
+[data-anim="lift"] {
+    transition: transfom var(--anim-slow-medium) var(--ease-emphasized),
+    box-shadow var(--anim-slow-medium) var(--ease-standard);
+}
+
+[data-anim="lift"]:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-sm);
+}

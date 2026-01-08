@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow | Organize seu trabalho</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="assets/images/favicon_TaskFlow.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu menu--top" aria-label="Menu principal">
+            <h1 class="menu__logo">
+                <a href="index.html" class="menu__link menu__link--logo">TaskFlow</a>
+            </h1>
+
+            <button class="menu__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+                <span class="menu__toggle-bar"></span>
+                <span class="menu__toggle-bar"></span>
+                <span class="menu__toggle-bar"></span>
+            </button>
+
+            <ul class="menu__list" id="navMenu">
+                <li class="menu__item"><a class="menu__link is-pressable" href="dashboard.html">Dashboard</a></li>
+                <li class="menu__item"><a class="menu__link is-pressable" href="#">Funcionalidades</a></li>
+                <li class="menu__item"><a class="menu__link is-pressable" href="#">Sobre</a></li>
+                <li class="menu__item"><a class="menu__link is-pressable" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container container">
+                <span class="hero__badge">Produtividade • SaaS</span>
+                <h2 class="hero__title">Organize tarefas, projetos e sua rotina em um só lugar</h2>
+                <p class="hero__text">
+                    TaskFlow é uma plataforma de gestão de tarefas feita para quem quer foco, clareza e produtividade no
+                    dia
+                    a dia
+                </p>
+
+                <div class="hero__actions">
+                    <a href="dashboard.html" class="button button--primary is-pressable" data-anim="lift">Testar grátis</a>
+                    <a href="#planos" class="button button--secondary is-pressable" data-anim="lift">Ver planos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <h3 class="section-title">Como o TaskFlow funciona</h3>
+                <div class="how-it-works__grid">
+                    <article class="step">
+                        <span class="step__number">01</span>
+                        <h4 class="step__title">Crie tarefas</h4>
+                        <p class="step__text">Adicione tarefas e organize por projetos.</p>
+                    </article>
+
+                    <article class="step">
+                        <span class="step__number">02</span>
+                        <h4 class="step__title">Defina prioridades</h4>
+                        <p class="step__text">Use prazos e níveis de importância.</p>
+                    </article>
+
+                    <article class="step">
+                        <span class="step__number">03</span>
+                        <h4 class="step__title">Acompanhe progresso</h4>
+                        <p class="step__text">Visualize tudo em tempo real.</p>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h3 class="features__title">Funcionalidades</h3>
+                <div class="features__grid">
+                    <article class="features__item is-pressable" data-anim="lift">
+                        <h4 class="features__item-title">Funciona perfeitamente em qualquer dispositivo</h4>
+                        <p class="features__item-text">
+                            Acesse e gerencie suas tarefas no computador, tablet ou celular, sem perder usabilidade ou
+                            clareza.
+                        </p>
+                    </article>
+                    <article class="features__item is-pressable" data-anim="lift">
+                        <h4 class="features__item-title">Organize suas tarefas de forma simples e visual</h4>
+                        <p class="features__item-text">
+                            Crie, edite e conclua tarefas com poucos cliques, matendo o foco no que realmente importa.
+                        </p>
+                    </article>
+                    <article class="features__item is-pressable" data-anim="lift">
+                        <h4 class="features__item-title">Interface limpa que reduz distrações</h4>
+                        <p class="features__item-text">Design minimalista pensado para aumentar a produtividade e evitar
+                            sobrecarga visual.</p>
+                    </article>
+                    <article class="features__item is-pressable" data-anim="lift">
+                        <h4 class="features__item-title">Suas tarefas salvas mesmo após fechar o navegador</h4>
+                        <p class="features__item-text">Continue de onde parou sem precisar criar conta ou fazer login.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="planos">
+            <div class="container">
+                <h3 class="section-title">Planos e preços</h3>
+
+                <div class="pricing__grid">
+                    <article class="plan">
+                        <h4 class="plan__title">Grátis</h4>
+                        <p class="plan__price">R$ 0,00</p>
+                        <ul class="plan__features">
+                            <li>Até 10 tarefas</li>
+                            <li>1 projeto</li>
+                            <li>Suporte básico</li>
+                        </ul>
+                        <a href="#" class="button button--secondary is-pressable" data-anim="lift">Começar</a>
+                    </article>
+
+                    <article class="plan plan--highlight">
+                        <h4 class="plan__title">Pro</h4>
+                        <p class="plan__price">R$ 19/mês</p>
+                        <ul class="plan__features">
+                            <li>Tarefas ilimitadas</li>
+                            <li>Projetos ilimitados</li>
+                            <li>Suporte prioritário</li>
+                        </ul>
+                        <a href="#" class="button button--secondary is-pressable" data-anim="lift">Assinar agora</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials container">
+            <div class="container">
+                <h3 class="section-title">O que as pessoas dizem</h3>
+
+                <blockquote class="testimonial">
+                    <p>
+                        "O TaskFlow mudou completamente minha organização diária.
+                        Simples, rápido e eficiente."
+                    </p>
+                    <cite>- João, Desenvolvedor Front-End</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h3 class="cta__title">Pronto para aumentar sua produtividade?</h3>
+            <a href="#" class="button button--secondary is-pressable" data-anim="lift">Criar conta</a>
+        </section>
+
+        <footer class="footer">
+            <p class="footer__text">© 2025 TaskFlow. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
